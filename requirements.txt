@@ -1,5 +1,6 @@
-transformers
-transformers[sentencepiece]
+transformers>=5.0.0
+transformers[sentencepiece]>=5.0.0
+accelerate
 datasets
 sacrebleu
 rouge_score
@@ -18,4 +19,5 @@ ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
+
 -e .
